@@ -1,0 +1,58 @@
+.fade-in {
+    transition: opacity 7s ease;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 7s ease;
+  }
+
+  .review-container{
+    background-color: white;
+    height: 38rem;
+  }
+
+  .review-text-container{
+    font-size: 44px;
+    line-height: 60px;
+    font-family: "Maison Neue Book",sans-serif;
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .review-name-img-holder{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .img-name-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .name-desg-holder{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .designation{
+    font-family: "Maison Neue Book",sans-serif;
+    font-size: 26px;
+    color: rgba(0,0,0,.7);
+    line-height: 1;
+    margin-top: 5px;
+  }
+
+  .name-review{
+    font-family: "Maison Neue Demi",sans-serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1;
+    margin-top: 15px;
+  }
